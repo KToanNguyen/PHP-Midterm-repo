@@ -21,6 +21,7 @@ $reviews = $stmt->fetchAll();
     <link href="style/bootstrap.css" rel="stylesheets" />
 </head>
 <body>
+    <!-- Review display -->
       <h2>Reviews</h2>
 
   <?php if (count($reviews) === 0): ?>
